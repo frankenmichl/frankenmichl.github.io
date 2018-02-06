@@ -16,7 +16,7 @@
 title: random linux 
 author: Michael Moese
 description: just some random stuff..
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://frankenmichl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 timezone: UTC
