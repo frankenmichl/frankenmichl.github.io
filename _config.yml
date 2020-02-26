@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.author }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: random linux 
+title: frankenmichl's random linux and other 
 author: Michael Moese
-description: just some random stuff..
+description: just my two cents
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://frankenmichl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.frankenmichl.de" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
-timezone: UTC
+timezone: Europe/Berlin
 exclude:
   - Gemfile
   - Gemfile.lock
