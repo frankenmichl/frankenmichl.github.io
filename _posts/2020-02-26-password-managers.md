@@ -6,8 +6,6 @@ author: "Michael Moese"
 meta: "password-manager"
 ---
 
-# Password Managers
-
 This post was originally written for the WordPress blog I ran in addition, but
 I want to get rid of this. This is an updated English version of the original
 post there.
@@ -89,15 +87,18 @@ For me, personally, a self-hosted open source solution is the only way to go
 with this. For me, as Linux power user, Pass is the perfect solution.
 If you are interested in a proper introduction/how to setup all this, send a
 mail blog at frankenmichl dot de.
+In case you are interested: I started a small project to convert my
+1Password data into pass, you can find it [on my git
+server](https://git.omglinux.de/michael/1pw2pass)
 
 
 
+|---|--------------------------------
+|[1]|https://lastpass.com/          |
+|[2]|https://1password.com/         |
+|[3]|https://bitwarden.com/         |
+|[4]|https://www.passwordstore.org/ |
+|[5]|https://gnupg.org/             |
+|[6]|https://git-scm.com/           |
+|[7]|https://gitea.io/              |
 
-
-[1] https://lastpass.com/
-[2] https://1password.com/
-[3] https://bitwarden.com/
-[4] https://www.passwordstore.org/
-[5] https://gnupg.org/
-[6] https://git-scm.com/
-[7] https://gitea.io/
