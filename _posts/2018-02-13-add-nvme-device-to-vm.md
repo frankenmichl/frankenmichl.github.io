@@ -30,7 +30,7 @@ virsh # connect qemu:///system
 
 virsh # edit b11b447d-00a9-4764-80d9-3d68e88ef686
 ```
-This opens the xml-file describing your VM in your $EDITOR.
+This opens the XML-file describing your VM in your $EDITOR.
 Change the first line from:
 ``` xml
 domain type='kvm'
