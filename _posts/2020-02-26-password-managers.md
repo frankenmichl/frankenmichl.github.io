@@ -55,11 +55,9 @@ source, especially as I can host my own server. From the feature side, this is
 almost en par with LastPass and 1Password, with the big plus of hosting this
 on your own infrastructure - which for me is something I want have. 
 
-However, the downside of Bitwarden was the poor iOS integration. Sometimes I
-simply could not use it to fill browser forms, it just wouldn't work. Most of
-the time, I ended up copying the credentials manually. Also, the server was
-eating a whole lot of memory and CPU, even with a single client using it -
-that's why I quickly abandoned this software.
+Update: 
+I discovered a second implementation of the server component, which uses way
+less ressources and seems to be quite usable [8].
 
 ## Pass
 Pass [4] is completely different. Every password is just a plain text file with
@@ -91,14 +89,19 @@ In case you are interested: I started a small project to convert my
 1Password data into pass, you can find it [on my git
 server](https://git.omglinux.de/michael/1pw2pass)
 
+Even though I would still consider Pass the perfect solution, I'm using
+Bitwarden in the meantime. It has proven itself to be rock solid and reliable,
+it is easy to use on other operating systems (like Windows) and - that's the
+main reason: my wife is finally using it now, too. I don't dare trying to
+teach her to use Git..
 
 
-|---|--------------------------------
-|[1]|https://lastpass.com/          |
-|[2]|https://1password.com/         |
-|[3]|https://bitwarden.com/         |
-|[4]|https://www.passwordstore.org/ |
-|[5]|https://gnupg.org/             |
-|[6]|https://git-scm.com/           |
-|[7]|https://gitea.io/              |
-
+|---|-------------------------------------------|
+|[1]|https://lastpass.com/                      |
+|[2]|https://1password.com/                     |
+|[3]|https://bitwarden.com/                     |
+|[4]|https://www.passwordstore.org/             |
+|[5]|https://gnupg.org/                         |
+|[6]|https://git-scm.com/                       |
+|[7]|https://gitea.io/                          |
+|[8]|https://github.com/dani-garcia/bitwarden_rs|
